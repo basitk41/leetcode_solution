@@ -10,7 +10,6 @@ const minimumRounds = (tasks) => {
     if (obj[tasks[i]]) obj[tasks[i]]++;
     else obj[tasks[i]] = 1;
   }
-  console.log(obj);
   for (key in obj) {
     const num = obj[key];
     if (num > 1) {
